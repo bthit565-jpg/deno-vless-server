@@ -1,4 +1,4 @@
-const userID = Deno.env.get('UUID') || 'd342d11e-d424-4583-b36e-524ab1f0afa4'
+const userID = Deno.env.get('UUID') || '67800200-bd55-425a-a796-be9544de3b39'
 const proxyIP = Deno.env.get('PROXYIP') || ''
 
 if (!isValidUUID(userID)) {
